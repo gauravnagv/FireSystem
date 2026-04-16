@@ -20,7 +20,7 @@ git push -u origin feature-anyname
 FileName: Dockerfile
 Code:
 FROM nginx:latest
-COPY index.html /usr/share/nginx/html/index.html
+COPY index.html /usr/share/nginx/html/index.html           -------------> ur file name
 EXPOSE 80
 
 ***** yaml file creation ***** in the same repo
@@ -84,6 +84,7 @@ create
 
 Settings > credentials > add credentials > SECRET FILE
 Choose file: C drive > Users > useracc > .kube > config
+ID: kuberconfig
 create
 
 Create new item in Jenkins > pipeline 
